@@ -5,7 +5,9 @@ You can run it from the command line, specifying the target IP address or range 
 
 For example:
 > python port_scanner.py 192.168.1.1/24 -p 80 443 8080 -o scan_results.json -f json
+> 
 > or
+> 
 > python port_scanner.py 192.168.1.1/24 -p 80 443 8080 -o scan_results.txt -f txt
 
 This will scan ports 80, 443, and 8080 on the target IP address 192.168.1.1. 
