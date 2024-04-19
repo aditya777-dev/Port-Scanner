@@ -14,13 +14,13 @@ This will scan ports 80, 443, and 8080 on the target IP address 192.168.1.1.
 
 You can also specify an IP range using CIDR notation, like 192.168.1.0/24, to scan multiple hosts.
 
-Features:
-> Multithreading: multithreading to scan multiple hosts or ports concurrently, which can significantly speed up the scanning process, especially for large network ranges.
->
-> Timeout Handling: more robust timeout handling to handle cases where connections take longer than expected or timeout unexpectedly.
->
-> Service Identification: enhanced service identification by adding more detailed banner parsing or integrating with external service identification databases like nmap's service detection.
-> 
-> Output Options: added options to save scan results to a file in various formats (e.g., CSV, JSON) for further analysis or reporting.
-> 
-> IP Address Validation: validate the input IP address or range to ensure it's in a valid format before initiating the scan.
+# Features:
+Multithreading: multithreading to scan multiple hosts or ports concurrently, which can significantly speed up the scanning process, especially for large network ranges.
+
+Timeout Handling: more robust timeout handling to handle cases where connections take longer than expected or timeout unexpectedly.
+
+Service Identification: enhanced service identification by adding more detailed banner parsing or integrating with external service identification databases like nmap's service detection.
+ 
+Output Options: added options to save scan results to a file in various formats (e.g., CSV, JSON) for further analysis or reporting.
+ 
+IP Address Validation: validate the input IP address or range to ensure it's in a valid format before initiating the scan.
